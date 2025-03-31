@@ -99,7 +99,7 @@ To train the model using the provided notebook:
 
 ### Inference
 
-To use the trained model for inference use [inference.py]("./scripts/inference.py").
+To use the trained model for inference use [inference.py]("scripts/inference.py").
 
 ## Chosen Approach and Strategy
 
@@ -149,7 +149,7 @@ These results highlight the challenge of the class imbalance problem. While the 
 
 ### Sample Visualizations
 
-See the [results]('./results/') directory for:
+See the [results]('results/') directory for:
 - ROC curve
 - Confusion matrix
 - Sample predictions
