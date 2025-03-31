@@ -1,0 +1,44 @@
+# Ignore dataset and raw data
+dataset/
+*.zip
+
+# Ignore model checkpoints
+models/
+*.pth
+*.h5
+
+# Ignore temporary files and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.log
+*.out
+
+# Ignore Jupyter notebook checkpoints
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Ignore generated plots and results
+results/
+*.png
+*.jpg
+*.jpeg
+
+# Ignore virtual environments
+env/
+venv/
+*.venv
+
+# Ignore IDE and OS-specific files
+.vscode/
+*.swp
+*.swo
+.idea/
+
+# Ignore large files (over 100MB) that shouldn't be pushed to GitHub
+*.ckpt
+*.tflite
+*.onnx
