@@ -22,8 +22,8 @@ notebooks/.ipynb_checkpoints/
 .virtual_documents/
 
 # Ignore generated plots and results
-results/
-*.png
+# results/
+# *.png
 *.jpg
 *.jpeg
 
