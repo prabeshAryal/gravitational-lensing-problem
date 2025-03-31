@@ -99,7 +99,7 @@ To train the model using the provided notebook:
 
 ### Inference
 
-To use the trained model for inference use (inference.py)["./scripts/inference.py"].
+To use the trained model for inference use [inference.py]("./scripts/inference.py").
 
 ## Chosen Approach and Strategy
 
@@ -149,7 +149,7 @@ These results highlight the challenge of the class imbalance problem. While the 
 
 ### Sample Visualizations
 
-See the (results)['./results/'] directory for:
+See the [results]('./results/') directory for:
 - ROC curve
 - Confusion matrix
 - Sample predictions
@@ -169,5 +169,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Data source : (1)[https://drive.google.com/file/d/1doUhVoq1-c9pamZVLpvjW1YRDMkKO1Q5/view?usp=drive_link]
-- Based on research in gravitational lens detections (1)[https://arxiv.org/abs/2008.12731] | (2)[https://arxiv.org/abs/1909.07346] | (3)[https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_78.pdf]
+- Data source : [1](https://drive.google.com/file/d/1doUhVoq1-c9pamZVLpvjW1YRDMkKO1Q5/view?usp=drive_link)
+- Based on research in gravitational lens detections [1](https://arxiv.org/abs/2008.12731) | [2](https://arxiv.org/abs/1909.07346) | [3](https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_78.pdf)
