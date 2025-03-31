@@ -149,7 +149,7 @@ These results highlight the challenge of the class imbalance problem. While the 
 
 ### Sample Visualizations
 
-See the `results/` directory for:
+See the (results)['./results/'] directory for:
 - ROC curve
 - Confusion matrix
 - Sample predictions
