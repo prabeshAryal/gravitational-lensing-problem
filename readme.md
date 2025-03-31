@@ -55,8 +55,8 @@ The project addresses the challenge of automatically identifying gravitational l
 
 3.  **Navigate to Task Folders:**
 
-    *   For Task I: `cd Task1` (see [Task1/README.md](Task1/README.md) inside Task1 folder)
-    *   For Task II: `cd Task2` (see [Task2/README.md](Task2/README.md) inside Task2 folder)
+    *   For Task I: `cd Task1` (see [Task1/readme.md](Task1/readme.md) inside Task1 folder)
+    *   For Task II: `cd Task2` (see [Task2/readme.md](Task2/readme.md) inside Task2 folder)
 
 ## Repository Structure
 
@@ -84,13 +84,13 @@ gravitational-lens-classifier/
 
 ## Tasks Overview
 
-*   **Task I: Multi-Class Classification ([Task1/README.md](Task1/README.md))**
+*   **Task I: Multi-Class Classification ([Task1/readme.md](Task1/readme.md))**
     *   Goal: Classify gravitational lens images into 'no', 'sphere', and 'vort' substructure classes.
     *   Dataset: Download and place in `Task1/dataset/`
     *   Implementation: [Task1/notebooks/multi-class-classification.ipynb](Task1/notebooks/multi-class-classification.ipynb)
     *   Results: [Task1/results/](Task1/results/)
 
-*   **Task II: Lens Finding (Binary Classification) ([Task2/README.md](Task2/README.md))**
+*   **Task II: Lens Finding (Binary Classification) ([Task2/readme.md](Task2/readme.md))**
     *   Goal: Identify gravitational lenses vs. non-lensed galaxies (binary classification).
     *   Dataset: Download and place in `Task2/dataset/`
     *   Implementation: [Task2/notebooks/gravitational_lens_classification.ipynb](Task2/notebooks/gravitational_lens_classification.ipynb)

@@ -109,7 +109,7 @@ The model's performance in Task 1 was **poor**, indicating the difficulty of thi
 
 **Sample Visualizations:**
 
-See the [results folder](results) for visualizations. A [README.md](results/readme.md) file within the `results/` folder provides a quick summary of the generated plots:
+See the [results folder](results) for visualizations. A [readme.md](results/readme.md) file within the `results/` folder provides a quick summary of the generated plots:
 
 *   **`training_history_multi.png`:** Training/Validation Loss and Accuracy curves.
 *   **`roc_curve_multi.png`:** Multi-class ROC Curve.
@@ -130,4 +130,4 @@ To improve performance in Task 1, several avenues could be explored:
 ## Acknowledgements
 
 -   **Dataset Source:** [dataset.zip - Google Drive](https://drive.google.com/file/d/1ZEyNMEO43u3qhJAwJeBZxFBEYc_pVYZQ/view)
--   **Based on research in gravitational lens detections** (See root `README.md` at [main](../readme.md) for full citations).
+-   **Based on research in gravitational lens detections** (See root `readme.md` at [main](../readme.md) for full citations).
