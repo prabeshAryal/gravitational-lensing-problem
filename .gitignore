@@ -1,44 +1,99 @@
-# Ignore dataset and raw data
-dataset/
-*.zip
+# DeepLense Project .gitignore
 
-# Ignore model checkpoints
-models/
-*.pth
-*.h5
-
-# Ignore temporary files and cache
-__pycache__/
+# General Python ignores
 *.pyc
-*.pyo
-*.pyd
-.DS_Store
+*~
+*.swp
+*.swo
 *.log
 *.out
+__pycache__/
+.Python
+.history
+*.egg-info
+*.egg
+dist/
+build/
+develop-eggs/
+MANIFEST
+*.manifest
+*.spec
+*.lib
+*.obj
+*.exp
+*.dll
+*.pdb
+*.tcl
+*.ini
+*.jnilib
+*.so
+*.dylib
+*.whl
+*.DS_Store
+.vscode/
+.idea/
+*.iml
 
-# Ignore Jupyter notebook checkpoints
-notebooks/.ipynb_checkpoints/
+# Virtual Environment
+env/
+venv/
+*.venv/
+
+# Jupyter Notebook related ignores
 .ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
 .virtual_documents/
+Task1/.virtual_documents/
+Task1/notebooks/.ipynb_checkpoints/
+Task2/notebooks/.ipynb_checkpoints/
+Task2/scripts/.ipynb_checkpoints/
+Task2/results/.ipynb_checkpoints/
+Task1/results/.ipynb_checkpoints/
 
-# Ignore generated plots and results
+# Dataset and Data files
+dataset/
+Task1/dataset/
+Task2/dataset/
+*.zip
+*.npy # Assuming you have numpy arrays in dataset
+*.csv # If you have CSVs
+
+# Model Weights and Checkpoints
+# models/
+# Task1/models/
+# Task2/models/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.tflite
+*.onnx
+
+# Results and Images
 # results/
+# Task1/results/
+# Task2/results/
 # *.png
 *.jpg
 *.jpeg
+*.gif
+*.svg
 
-# Ignore virtual environments
-env/
-venv/
-*.venv
+# OS and Editor specific files
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Tt]humbs.db
 
-# Ignore IDE and OS-specific files
-.vscode/
-*.swp
-*.swo
-.idea/
+# Large files that shouldn't be pushed to GitHub
+# Add any specific large file extensions or patterns here if needed
+# Example:
+# *.bigdata
 
-# Ignore large files (over 100MB) that shouldn't be pushed to GitHub
-*.ckpt
-*.tflite
-*.onnx
+# Ignore misc folder - if it's just for misc things you don't need in repo
+misc/
+
+# Ignore any raw data folders if you have them and don't need in repo
+# raw_data/
+# data_raw/
