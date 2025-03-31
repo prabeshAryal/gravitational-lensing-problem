@@ -14,8 +14,8 @@ The project addresses the challenge of automatically identifying gravitational l
 
 **This repository includes solutions for two tasks:**
 
-*   **Task I: Multi-Class Classification** - Classifying images into three categories: no substructure, subhalo substructure, and vortex substructure. (See [Task1/README.md](Task1/README.md) for details)
-*   **Task II: Lens Finding (Binary Classification)** - Identifying gravitational lenses versus non-lensed galaxies. (See [Task2/README.md](Task2/README.md) for details)
+*   **Task I: Multi-Class Classification** - Classifying images into three categories: no substructure, subhalo substructure, and vortex substructure. (See [Task1/readme.md](Task1/readme.md) for details)
+*   **Task II: Lens Finding (Binary Classification)** - Identifying gravitational lenses versus non-lensed galaxies. (See [Task2/readme.md](Task2/readme.md) for details)
 
 
 **GSoC Project Details:**
