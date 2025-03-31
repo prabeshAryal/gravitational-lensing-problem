@@ -88,6 +88,7 @@ To train the model using the provided notebook:
 ### Inference
 
 To use the trained model for inference use [inference.py](scripts/inference.py).
+>- The models **weights** are saved in [models](models) folder.
 
 ## Chosen Approach and Strategy
 

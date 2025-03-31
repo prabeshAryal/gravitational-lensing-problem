@@ -91,7 +91,7 @@ The chosen CNN architecture incorporates:
 
 ## Performance Results
 
-The model's performance in Task 1 was **poor**, indicating the difficulty of this multi-class classification task with the current approach.
+The model's performance in Task 1 was **poor**, indicating the difficulty of this multi-class classification task with the current approach. The models **weights** are saved in [models](models) folder.
 
 | Metric               | Value    |
 |-----------------------|----------|

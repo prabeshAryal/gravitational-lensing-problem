@@ -87,13 +87,13 @@ gravitational-lens-classifier/
 *   **Task I: Multi-Class Classification ([Task1/README.md](Task1/README.md))**
     *   Goal: Classify gravitational lens images into 'no', 'sphere', and 'vort' substructure classes.
     *   Dataset: Download and place in `Task1/dataset/`
-    *   Implementation: [Task1/notebooks/multi-class-classification.ipynb](Task1/notebooks/lens_multi_class_classification.ipynb)
+    *   Implementation: [Task1/notebooks/multi-class-classification.ipynb](Task1/notebooks/multi-class-classification.ipynb)
     *   Results: [Task1/results/](Task1/results/)
 
 *   **Task II: Lens Finding (Binary Classification) ([Task2/README.md](Task2/README.md))**
     *   Goal: Identify gravitational lenses vs. non-lensed galaxies (binary classification).
     *   Dataset: Download and place in `Task2/dataset/`
-    *   Implementation: [Task2/notebooks/gravitational_lens_classification.ipynb](Task2/notebooks/lens_binary_classification.ipynb)
+    *   Implementation: [Task2/notebooks/gravitational_lens_classification.ipynb](Task2/notebooks/gravitational_lens_classification.ipynb)
     *   Results: [Task2/results/](Task2/results/)
 
 ## Acknowledgements
