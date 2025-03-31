@@ -62,7 +62,7 @@ Task2/dataset/
 # models/
 # Task1/models/
 # Task2/models/
-*.pth
+# *.pth
 *.pt
 *.ckpt
 *.h5

@@ -59,19 +59,7 @@ The classifier uses a CNN with:
 
 ## Installation
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/gravitational-lens-classifier.git
-   cd gravitational-lens-classifier
-   ```
 
-2. Create a virtual environment and install dependencies:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126 # Download appropriate version for your gpu
-   ```
 
 3. Download the dataset (if not already downloaded):
    ```bash
@@ -163,11 +151,8 @@ See the [results](results/) directory for:
 - Use transfer learning from models pre-trained on astronomical data
 - Ensemble multiple models for improved performance
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
-- Data source : [1](https://drive.google.com/file/d/1doUhVoq1-c9pamZVLpvjW1YRDMkKO1Q5/view?usp=drive_link)
+- Data source : [Drive](https://drive.google.com/file/d/1doUhVoq1-c9pamZVLpvjW1YRDMkKO1Q5/view?usp=drive_link)
 - Based on research in gravitational lens detections [1](https://arxiv.org/abs/2008.12731) | [2](https://arxiv.org/abs/1909.07346) | [3](https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_78.pdf)
