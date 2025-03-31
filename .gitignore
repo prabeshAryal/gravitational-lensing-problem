@@ -92,7 +92,8 @@ Thumbs.db
 # *.bigdata
 
 # Ignore misc folder - if it's just for misc things you don't need in repo
-misc/
+# misc/
+*/report.synctex.gz
 
 # Ignore any raw data folders if you have them and don't need in repo
 # raw_data/
