@@ -3,8 +3,8 @@ dataset/
 *.zip
 
 # Ignore model checkpoints
-models/
-*.pth
+# models/
+# *.pth
 *.h5
 
 # Ignore temporary files and cache
